@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIENDYcom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95ba8cd4c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+    <header>
+        <i class="fa-solid earth fa-people-line"></i>
+       <h1>FRIENDYcom</h1>
+       <i class="fa-solid earth spin fa-earth-americas"></i>
+    </header>
+
+    <section class="about">
+       <h2>Find a friend worldwide!</h2>
+       <p>This service provides your potentional friends profiles throughout the world.</p>
+       
+    </section>
+
+   <section class="section_form">
+    <form class="form">
+        <h2>Try it right now</h2>
+        <p>You can specify:</p>
+        <div class="gender">
+
+        <label>Gender:</label>
+        <label>
+               <input type="checkbox" name="gender" id="male">
+              Male
+        </label>
+
+       <label>
+               <input type="checkbox" name="gender" id="female">
+               Female
+        </label>
+    </div>
+        
+        <div class="age">
+        <label>Age from  :</label>
+
+        <label>          
+
+            <select name="ageFrom" id="ageFrom" onfocus='this.size=10;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+                <!-- Наполняем из script0.js-->
+            </select>
+        </label>
+
+        <label>  to:</label>
+        <label>
+            <select name="ageTo" id="ageTo" onfocus='this.size=10;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>   
+                <!-- Наполняем из script0.js-->             
+            </select>
+        </label>
+    </div>
+
+        <button type="button">Find friends</button>
+    </form>
+</section>
+
+<script src="script0.js"></script>
+
+<h1 class="result_title">We found these results for you: </h1>
+
+<section class="results">
+    <!-- карточки из script -->
+</section>
+
+</div>
+<footer>
+    <span class='footer__text'>©2022 All rights reserved</span> 
+</footer>
+    
+<script src="script.js"></script>
+</body>
+</html>

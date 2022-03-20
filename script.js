@@ -21,7 +21,7 @@ function setCards(i) {
     <div class="about-info">
         <div>
         <label>Имя: </label>
-        <input type="text" name="name" readonly id="name${i}" value=""> 
+        <input class="cardInput name" type="text" name="name" readonly id="name${i}" value=""> 
         </div>
         <div>
         <label>Возраст: </label>
@@ -29,7 +29,7 @@ function setCards(i) {
     </div>
     <div>
         <label>email: </label>
-        <input type="text" name="email" readonly id="email${i}" value=""> 
+        <input class="cardInput" type="text" name="email" readonly id="email${i}" value=""> 
     </div>
     </div>
   </div>
